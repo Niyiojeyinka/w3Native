@@ -3,7 +3,8 @@
 visit https://www.w3schools.com/w3css to learn W3CSS
 
 
-Here we use w3.Container instead of w3-container on the web
+Here we use w3.Container instead of w3-container on the web.
+<br>
 List of supported Properties
 
 ----W3CSS Card <br>
