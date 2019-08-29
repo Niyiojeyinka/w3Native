@@ -1,4 +1,4 @@
-import { StyleSheet, Dimensions } from "react-native";
+import { StyleSheet /*, Dimensions*/ } from "react-native";
 /*const deviceHeight = Dimensions.get("window").height;
 const deviceWidth = Dimensions.get("window").width;
 */
@@ -52,10 +52,11 @@ const styles = StyleSheet.create({
     elevation: 5
   },
   Card: {
+    borderColor: "#000",
     shadowColor: "rgba(0, 0, 0, 0.2)",
     shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.8,
-    shadowRadius: 2,
+    shadowOpacity: 0.7,
+    shadowRadius: 5,
     elevation: 5
   },
   Circle: {
@@ -309,7 +310,7 @@ const styles = StyleSheet.create({
     color: "#000",
     backgroundColor: "#f1f1f1"
   },
-  LightGrayy: {
+  LightGray: {
     color: "#000",
     backgroundColor: "#f1f1f1"
   },
