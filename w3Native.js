@@ -23,25 +23,19 @@ const styles = StyleSheet.create({
   },
   Image: { maxWidth: "100%", height: "auto" },
   Btn: {
-    /*repeate for both btn button*/
     borderWidth: 0,
     display: "flex",
     paddingVertical: 8,
     paddingHorizontal: 16,
     overflow: "hidden",
     alignContent: "center"
-    //color: "inherit",
-    //backgroundColor: "inherit",
   },
   Button: {
-    /*repeate for both btn button*/
     borderWidth: 0,
     display: "flex",
     paddingVertical: 8,
     paddingHorizontal: 16,
     overflow: "hidden",
-    /* color: "inherit",
-    backgroundColor: "inherit",*/
     alignContent: "center"
   },
   BtnHover: {
