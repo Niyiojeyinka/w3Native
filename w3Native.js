@@ -56,8 +56,8 @@ const styles = StyleSheet.create({
     shadowColor: "rgba(0, 0, 0, 0.2)",
     shadowOffset: { width: 0, height: 1 },
     shadowOpacity: 0.7,
-    shadowRadius: 5,
-    elevation: 5
+    shadowRadius: 3,
+    elevation: 2
   },
   Circle: {
     borderRadius: 50
@@ -163,15 +163,15 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24
   },
 
-  PaddingxLarge: {
+  PaddingXLarge: {
     paddingVertical: 16,
     paddingHorizontal: 32
   },
-  PaddingxxLarge: {
+  PaddingXxLarge: {
     paddingVertical: 24,
     paddingHorizontal: 48
   },
-  PaddingxxxLarge: {
+  PaddingXxxLarge: {
     paddingVertical: 12,
     paddingHorizontal: 24
   },
